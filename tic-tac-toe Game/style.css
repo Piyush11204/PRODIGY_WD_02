@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(190, 190, 190);
+    background-image: url(7110878_1083.jpg);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-attachment: fixed;
+    background-size: 250vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 150px;
+    border: px solid;
+    border-radius: 50px;
+    width: 800px;
+    padding: 30px;
+
+}
+
+h1 {
+    font-size: 86px;
+    width: 800px;
+    text-align: center;
+    text-shadow: 7px 7px rgba(231, 17, 38, 0.521);
+
+    color: rgb(255, 240, 240);
+}
+
+.game-board {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 50px;   
+    box-shadow: 10%;
+}
+
+
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 10px solid #071fa2;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-size: 80px;
+    cursor: pointer;
+
+}
+
+.winner-text {
+    color: #ffffff;
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+#restartButton {
+    font-size: 40px;
+    padding: 10px 20px;
+    background-color: rgba(11, 251, 171, 0.135);
+    margin-top: -25vh;
+    margin-left: -100vh;
+    color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 400px;
+}
+
+.vs-button button {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    border: 10px;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 60px 10px 0  130px;
+    cursor: pointer;
+}
+
+.vs-button button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 200, 255);
+    border: none;
+}
